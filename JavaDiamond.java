@@ -3,6 +3,17 @@ public class JavaDiamond {
     public static void main(String[] args) {
         int n = 4;
         int character = 97;
+        
+        //                a         
+        //              b a b       
+        //            c b a b c     
+        //          d c b a b c d   
+        //        e d c b a b c d e 
+        //          d c b a b c d   
+        //            c b a b c     
+        //              b a b       
+        //                a         
+
 
         String[][] array = getDiamond(n, character);
         printArray(array);
